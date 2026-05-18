@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+fimport java.util.ArrayList;
 import java.util.List;
 
 public class GenericsTest3 {
@@ -9,14 +9,15 @@ public class GenericsTest3 {
 		list1.add(new Cat());
 		print(list1);
 		display(list1);
-		List<Dog> list2 = new ArrayList();
-		list2.add(new Dog());
+		//List<Dog> list2 = new ArrayList();
+		/*list2.add(new Dog());
 		print(list2);
-		display(list2);
-		List<Cat> list3 = new ArrayList();
-		list3.add(new Cat());
-		print(list3);
+		*///display(list2);
+		//List<Cat> list3 = new ArrayList();
+		//list3.add(new Cat());
+		//print(list3);
 		// display(list3); Error
+		System.out.println("testing");
 	}
 
 	public static void print(List<? extends Animal> list) {
