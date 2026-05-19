@@ -6,6 +6,7 @@ import java.sql.SQLException;
 
 public class DBConnection {
 public static void main(String[] args) {
+	System.out.println("update DBConnection!!!");
 	System.out.println("DBConnection Test");
 	System.out.println("update DBConnection Test!!!");
 	
