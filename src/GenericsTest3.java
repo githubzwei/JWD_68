@@ -1,4 +1,4 @@
-fimport java.util.ArrayList;
+import java.util.ArrayList;
 import java.util.List;
 
 public class GenericsTest3 {
