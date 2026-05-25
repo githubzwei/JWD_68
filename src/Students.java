@@ -1,5 +1,4 @@
-
-
+import java.sql.Timestamp;
 
 public class Students {
 
@@ -10,6 +9,7 @@ public class Students {
 	private int petname;
 
 	private String password;
+	private Timestamp createdAt;
 	
 	public String getPassword() {
 		return password;
