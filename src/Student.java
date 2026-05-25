@@ -49,5 +49,6 @@ public class Student {
 		System.out.println("count : "+count++);
 		System.out.println("count : "+count);
 		System.out.println("count : "+Student.count);
+		System.out.println("count : "+Student.count);
 	}
 }
