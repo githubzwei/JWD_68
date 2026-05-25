@@ -5,6 +5,10 @@ public class Students {
 
 	private String name;
 	private int age;
+
+	private double mark;
+	private int petname;
+
 	private String password;
 	
 	public String getPassword() {
