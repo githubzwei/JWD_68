@@ -7,4 +7,10 @@ public class Honda extends Bike{
 		
 	}
 
+	@Override
+	public void print() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
